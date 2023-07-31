@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@400;500;600;700;800;900&display=swap');
+
+body{
+    display: flex;
+    justify-content: center;
+    margin-top: 10rem;
+    font-family: Hanken Grotesk, sans-serif;
+    font-weight: 600;
+}
+
+.text1{
+    font-size: 22px;
+}
+.yr{
+    opacity: 70%;
+}
+.text2{
+    font-size: 28px;
+}
+
+p{
+    font-size: 18px;
+    font-weight: 400;
+    opacity: 60%;
+}
+
+i{
+    margin-top: 5px;
+}
+.num{
+    font-size: 70px;
+    font-weight: 800;
+}
+
+.num2{
+    color: grey;
+}
+
+.main-container{
+    display: grid;
+    grid-template-columns:1fr 1fr;
+    border-radius: 30px;
+    box-shadow: 0 0 30px rgba(0,42,255,0.12);
+    height: 500px;
+    aspect-ratio: 4 / 3;
+}
+
+.left-container, .right-container{
+    padding-top: 45px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.left-container{
+    color: white;
+    text-align: center;
+    display: grid;
+    grid-template-rows: 1fr 4fr 30px 2fr;
+    background: hsl(252, 100%, 67%);
+    background: linear-gradient(hsl(252, 100%, 67%)0%, hsl(241, 81%, 54%)90%);
+    border-radius: 20px;
+}
+
+.circle{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    shape-outside: circle();
+    clip-path: circle(100px);
+    background: linear-gradient(hsla(252, 100%, 67%, 50%)0%, hsl(241, 81%, 54%)100%);
+}
+
+
+.lista{
+    margin-top: 25px;
+    margin-bottom: 40px;
+    display: grid;
+    row-gap: 18px;
+}
+
+.bloque{
+    height: 55px;
+    border-radius: 10px;
+    padding-left: 15px;
+    display: grid;
+    grid-template-columns: 30px 3fr 2fr;
+    align-items: center;
+}
+
+.score{
+    color: black;
+
+}
+.rojo{
+    color: hsl(0, 100%, 67%);
+    background: hsla(0, 100%, 67%, 20%);
+}
+
+.amarillo{
+    color: hsl(39, 100%, 56%);
+    background: hsla(39, 100%, 56%, 20%);
+}
+
+.verde{
+    color: hsl(166, 100%, 37%);
+    background: hsla(166, 100%, 37%, 20%);
+}
+
+.violeta{
+    color: hsl(234, 85%, 45%);
+    background: hsla(234, 85%, 45%, 20%);
+}
+
+.boton a{
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+    background: hsl(224, 30%, 27%);
+    text-decoration: none;
+    color: white;
+}
+
+.boton a:hover{
+    background: linear-gradient(hsl(252, 100%, 67%)0%, hsl(241, 81%, 54%)100%);
+}
+
+.score{
+    opacity: 70%;
+}
+
+.score strong{
+    color: black;
+    opacity: 100%;
+}
