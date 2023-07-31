@@ -129,6 +129,10 @@ i{
 
 .score{
     opacity: 70%;
+    display: flex;
+    gap: 5px;
+    justify-content: right;
+    margin-right: 15px;
 }
 
 .score strong{
